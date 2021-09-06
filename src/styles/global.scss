@@ -1,0 +1,17 @@
+// 用于App.vue 作用于全局的样式
+ul,
+ol {
+  list-style-type: none;
+  text-align: left;
+}
+
+.text-ul {
+  font-size: 20px;
+  line-height: 1.8em;
+  display: inline-block;
+  padding-top: 15px;
+  width: 75%;
+  li {
+    padding-left: 6%;
+  }
+}

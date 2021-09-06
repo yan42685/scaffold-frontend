@@ -1,0 +1,44 @@
+{
+    "name": "aspirin-frontend",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "@ant-design/icons-vue": "^6.0.1",
+        "@types/node": "^14.14.10",
+        "ant-design-vue": "^2.2.2",
+        "axios": "^0.21.0",
+        "core-js": "^3.6.5",
+        "js-cookie": "^2.2.1",
+        "mitt": "^2.1.0",
+        "qs": "^6.9.4",
+        "retry-axios": "^2.4.0",
+        "screenfull": "^5.0.2",
+        "timetables": "^1.1.0",
+        "vue": "^3.1.4",
+        "vue-router": "^4.0.10",
+        "vuex": "^4.0.2"
+    },
+    "devDependencies": {
+        "@types/js-cookie": "^2.2.6",
+        "@typescript-eslint/eslint-plugin": "^2.33.0",
+        "@typescript-eslint/parser": "^2.33.0",
+        "@vue/cli-plugin-babel": "^4.5.13",
+        "@vue/cli-plugin-eslint": "^4.5.13",
+        "@vue/cli-plugin-router": "^4.5.13",
+        "@vue/cli-plugin-typescript": "^4.5.13",
+        "@vue/cli-plugin-vuex": "^4.5.13",
+        "@vue/cli-service": "^4.5.13",
+        "@vue/compiler-sfc": "^3.0.0",
+        "@vue/eslint-config-typescript": "^5.0.2",
+        "eslint": "^6.7.2",
+        "eslint-plugin-vue": "^7.0.0-0",
+        "sass": "^1.29.0",
+        "sass-loader": "^9.0.3",
+        "typescript": "~4.1.5"
+    }
+}
