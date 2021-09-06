@@ -107,10 +107,9 @@ httpClient.interceptors.response.use(
                 // accessToken过期, 尝试刷新token
                 if (!isRefreshingToken) {
                     isRefreshingToken = true;
-                    postRequest(
-                        "/api/account/refreshToken",
-                        getRefreshToken()
-                    ).then((result) => {
+                    postRequest("/api/account/refreshToken", {
+                        refreshToken: getRefreshToken(),
+                    }).then((result) => {
                         // 如果刷新token也失败，只能重新登录了
                         if (result.code !== 0) {
                             loginRedirect();
